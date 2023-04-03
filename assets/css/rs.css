@@ -1,0 +1,20 @@
+#boughtAids, #rcmdAids  {
+  max-height: 500px; /* 最大高度为300px */
+  overflow-y: auto; /* 垂直滚动条自动启用 */
+  
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  
+  
+}
+.template{
+    display: None;
+}
+article img {
+  max-width: 300px !important;; /* 最大宽度为 300px */
+  width: 100% !important;; /* 最宽宽度为父元素的宽度（或浏览器窗口的宽度） */
+  max-height: 430px !important;; /* 最大宽度为 430px（仅在宽度超过 430px 时应用）*/
+}
+
+.dead {
+  display: None;
+}
